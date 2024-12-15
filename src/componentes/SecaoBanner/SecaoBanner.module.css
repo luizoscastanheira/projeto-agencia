@@ -1,0 +1,66 @@
+/* Estilizando a Seção Banner */
+
+#secaoBanner {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    color: #022144;
+    background-color: #fafbfc;
+}
+
+.divBanner {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#divBanner1 {
+    background-image: url("../../../public/banner.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+
+#divBanner2 {
+    padding: 0px 20px;
+}
+
+#divBanner2 p {
+    font-size: 12px;
+}
+
+#divBanner2 h2{
+    font-size: 50px;
+}
+
+#divBanner2 span {
+    font-size: 50px;
+}
+
+/* Criando a Responsividade */
+
+/* Resolução de 768px */
+@media screen and (max-width: 769px){
+    #divBanner1{
+        display:none;
+    }
+    #divBanner2{
+        width: 100%;
+    }
+
+    #divBanner2 h2{
+        font-size: 40px;
+    }
+    
+    #divBanner2 span {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1025px){
+    #divBanner1 {
+        background-repeat: none;
+        background-size: cover;
+        background-position: center;
+    }
+}

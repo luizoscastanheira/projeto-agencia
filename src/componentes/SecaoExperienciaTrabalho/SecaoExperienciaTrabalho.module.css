@@ -1,0 +1,53 @@
+/* Estilizando a Seção de Experiência */
+
+#experiencia {
+    width: 100%;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    background-color: #f6f8fc;
+}
+#divBox1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 768px;
+    margin: 0 auto;
+    text-align: center;
+    color: #000000;
+}
+#divBox1 h2 {
+    font-size: 45px;
+    color:#32333c;
+}
+#divBox1 p {
+    font-size: 18px;
+    color:#8a8fa3;
+}
+
+#divBox1 hr{
+    width: 100px;
+    height: 5px;
+    background-color: #feb633;
+    border: solid #feb633;
+    margin: 0 auto;
+}
+
+/* Container dos Cards */
+#divBox2 {
+    max-width: 1024px;
+    display: flex;
+}
+
+
+/* Criando a Responsividade */
+
+/* Tela de 768px */
+@media screen and (max-width: 769px){
+    #divBox2{
+        flex-direction: column;
+        width: 100%;
+    }
+}

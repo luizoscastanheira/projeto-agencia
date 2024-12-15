@@ -1,0 +1,41 @@
+/* Estilizando o Rodapé */
+#rodape{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#rodape hr{
+    width: 100%;
+    background-color: #CCCCCC;
+}
+#divBox {
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+#box1{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color:#8a8fa3;
+}
+#box2{
+    max-width: 375px;
+}
+#divBox2 span{
+    color: #feb633;
+    font-weight: bold;
+}
+
+.imgFooter {
+    width: 45px;
+    height: 45px;
+    margin: 0 5px;
+}

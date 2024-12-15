@@ -1,0 +1,43 @@
+/* Estilizando Card */
+
+.card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 70px 30px;
+    border: dotted 1px gainsboro;
+}
+
+.card:hover {
+    background-color: #feb633;
+}
+
+.boxTitulo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.boxTitulo span {
+    font-size: 16px;
+}
+.boxTitulo h3{
+    font-size: 24px;
+}
+.boxTitulo small{
+    font-size: 14px;
+}
+.paragrafo {
+    font-size: 16px;
+}
+
+/* Criando a Responsividade */
+
+/* Resolução 768px */
+
+@media screen and (max-width:769px) {
+    .card{
+        width: 100%;
+    }
+}
