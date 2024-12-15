@@ -40,7 +40,7 @@
 /* Criando a Responsividade */
 
 /* Resolução de 768px */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 769px){
     #divBanner1{
         display:none;
     }
@@ -57,7 +57,7 @@
     }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px){
+@media screen and (min-width: 770px) and (max-width: 1024px){
     #divBanner1 {
         background-repeat: none;
         background-size: cover;
