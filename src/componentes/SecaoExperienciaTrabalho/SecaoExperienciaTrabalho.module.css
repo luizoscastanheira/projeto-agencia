@@ -43,4 +43,9 @@
 
 
 /* Criando a Responsividade */
-
+@media screen and (max-width: 1024px){
+    #divBox2{
+        display: flex;
+        flex-direction: column;
+    }
+}
