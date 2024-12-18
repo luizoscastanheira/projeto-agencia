@@ -12,3 +12,9 @@
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
+
+/* Básico do Esquema de cores claro/escuro */
+
+html {
+  color-scheme: light dark;
+}
